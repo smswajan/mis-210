@@ -1,5 +1,5 @@
 import decimal
-amount = eval(input("Enter an amount in cents, for example, for 32.45 write 3245 "))
+amount = eval(input("Enter an amount (e.g. 11.56): "))
 
 damount = str(amount)
 damount = decimal.Decimal(damount)
